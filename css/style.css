@@ -58,6 +58,7 @@ border:none;
 /* buttons */
 .btn{
     background-color: rgb(161, 134, 82);
+    color: white;
 }
  
 .box {
