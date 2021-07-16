@@ -18,7 +18,7 @@ body {
 }
 #social-icons ul li a{
     text-decoration: none;
-    color: bisque;
+    color: white;
 }
 #social-icons ul li a:hover,
 #social-icons ul li a:active{
@@ -26,6 +26,7 @@ body {
 }
 #contact-info {
     text-align: right;
+    color: white;
 }
 #contact-info span{
     padding: 0px, 10px;
@@ -33,4 +34,27 @@ body {
 }
 #contact-info span:first-child{ 
     border-left: none;
+}
+
+/* navigation bar */
+.btn-outline-success {
+color: white;
+border:none;
+}
+.navbar-dark {
+    background-color: rgb(161, 134, 82) !important;
+}
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus{
+    color: antiquewhite;
+}
+/*search form*/
+#button-search{
+    background-color: rgb(182, 146, 98); 
+    border: black;
+}
+/* footer */
+#footer{ 
+    background-color: #545658;
+    color: bisque;
 }
