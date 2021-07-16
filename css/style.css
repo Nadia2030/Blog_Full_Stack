@@ -48,13 +48,46 @@ border:none;
 .navbar-dark .navbar-brand:focus{
     color: antiquewhite;
 }
-/*search form*/
-#button-search{
-    background-color: rgb(182, 146, 98); 
-    border: black;
-}
+ 
 /* footer */
 #footer{ 
     background-color: #545658;
     color: bisque;
+}
+
+/* buttons */
+.btn{
+    background-color: rgb(161, 134, 82);
+}
+ 
+.box {
+    background-color:#FFFFFF;
+	padding:10px 20px;  
+}
+
+.box ul {
+	margin:0;
+}
+
+.box ul li {
+	font-size:13px;
+	border-bottom:1px dashed #DDDDDD;
+	padding:10px 0;
+	font-weight:600;
+}
+
+.box ul li:last-child {
+	border-bottom:0;
+}
+
+.box ul li i {
+	font-size:18px;
+	margin-right:20px;
+}
+
+.box.categories ul li i {
+	color:#BBBBBB;	
+	position:relative;
+	top:2px;
+	width:20px;
 }
