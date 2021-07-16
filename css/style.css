@@ -92,3 +92,7 @@ border:none;
 	top:2px;
 	width:20px;
 }
+.bs-example>.btn, .bs-example>.btn-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
