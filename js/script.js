@@ -1,3 +1,3 @@
-$(function () {
-    $('[data-toggle="popover"]').popover();
-  })
+$(document).ready(function() { 
+alert("Welcome to our New Blog"); 
+  });
